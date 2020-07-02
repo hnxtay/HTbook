@@ -1,0 +1,323 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Cullinan Admin</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/bootstrap-responsive.min.css" />
+<link rel="stylesheet" href="css/uniform.css" />
+<link rel="stylesheet" href="css/select2.css" />
+<link rel="stylesheet" href="css/matrix-style.css" />
+<link rel="stylesheet" href="css/matrix-media.css" />
+<link href="font-awesome/css/font-awesome.css" rel="stylesheet" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<!--Header-part-->
+<div id="header">
+  <h1 ><a href="dashboard.html" style="color: white; ">Cullinan</a></h1>
+</div>
+<!--close-Header-part--> 
+
+<!--top-Header-menu-->
+<div id="user-nav" class="navbar navbar-inverse">
+  <ul class="nav">
+    <li  class="dropdown" id="profile-messages" ><a title="" href="#" data-toggle="dropdown" data-target="#profile-messages" class="dropdown-toggle"><i class="icon icon-user"></i>  <span class="text">Welcome User</span><b class="caret"></b></a>
+      <ul class="dropdown-menu">
+        <li><a href="#"><i class="icon-user"></i> My Profile</a></li>
+        <li class="divider"></li>
+        <li><a href="#"><i class="icon-check"></i> My Tasks</a></li>
+        <li class="divider"></li>
+        <li><a href="F:\Cullinan Hotel\Web Hotel\index.html"><i class="icon-key"></i> Log Out</a></li>
+      </ul>
+    </li>
+    <li class="dropdown" id="menu-messages"><a href="#" data-toggle="dropdown" data-target="#menu-messages" class="dropdown-toggle"><i class="icon icon-envelope"></i> <span class="text">Messages</span> <span class="label label-important">5</span> <b class="caret"></b></a>
+      <ul class="dropdown-menu">
+        <li><a class="sAdd" title="" href="#"><i class="icon-plus"></i> new message</a></li>
+        <li class="divider"></li>
+        <li><a class="sInbox" title="" href="#"><i class="icon-envelope"></i> inbox</a></li>
+        <li class="divider"></li>
+        <li><a class="sOutbox" title="" href="#"><i class="icon-arrow-up"></i> outbox</a></li>
+        <li class="divider"></li>
+        <li><a class="sTrash" title="" href="#"><i class="icon-trash"></i> trash</a></li>
+      </ul>
+    </li>
+    <li class=""><a title="" href="#"><i class="icon icon-cog"></i> <span class="text">Settings</span></a></li>
+    <li class=""><a title="" href="F:\Cullinan Hotel\Web Hotel\index.html"><i class="icon icon-share-alt"></i> <span class="text">Logout</span></a></li>
+  </ul>
+</div>
+
+<!--start-top-serch-->
+<div id="search">
+  <input type="text" placeholder="Search here..."/>
+  <button type="submit" class="tip-bottom" title="Search"><i class="icon-search icon-white"></i></button>
+</div>
+<!--close-top-serch--> 
+
+<!--sidebar-menu-->
+
+<div id="sidebar"><a href="#" class="visible-phone"><i class="icon icon-home"></i> Dashboard</a>
+  <ul>
+    <li class="active"><a href="admin.html"><i class="icon icon-home"></i> <span>Dashboard</span></a> </li>
+    <li> <a href="charts.html"><i class="icon icon-signal"></i> <span>Charts &amp; graphs</span></a> </li>
+    <li> <a href="room.html"><i class="icon icon-inbox"></i> <span>Room</span></a> </li>
+    <li><a href="bookings.html"><i class="icon icon-th"></i> <span>Bookings</span></a></li>  
+   
+   <li><a href="chat.html"><i class="icon icon-th"></i> <span>Chat</span></a></li>
+    
+    
+</div>
+<div id="content">
+  <div id="content-header">
+    <div id="breadcrumb"> <a href="#" title="Go to Home" class="tip-bottom"><i class="" icon-home"></i> Home</a> <a href="#" class="current">Tables</a> </div>
+    <h1>Bookings managerment</h1>
+  </div>
+  <div class="container-fluid">
+    <hr>
+    <div class="row-fluid">
+      <div class="span12">
+        <div class="widget-box">
+          <div class="widget-title"> <span class="icon"> <i class="icon-th"></i> </span>
+            <h5>Drink-food prices list</h5>
+          </div>
+          <div class="widget-content nopadding">
+            <table class="table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th>No</th>
+                  <th>Product's name</th>
+                  <th>Price($)</th>
+                  <th>Unit</th>
+                  <th>Total </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Aquafina</td>
+                  <td>1</td>
+                  <td >bottle</td>
+                  <td>500</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>Tiger</td>
+                  <td>1</td>
+                  <td >bottle</td>
+                  <td>500</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Heniken</td>
+                  <td>1.5</td>
+                  <td >can</td>
+                  <td>1000</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>CocaCola</td>
+                  <td>1.2</td>
+                  <td >can</td>
+                  <td>800</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>SnackPotatal</td>
+                  <td>0.5</td>
+                  <td >pack</td>
+                  <td>500</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="widget-box">
+          <div class="widget-title"> <span class="icon"> <i class="icon-th"></i> </span>
+            <h5>Service price list</h5>
+          </div>
+          <div class="widget-content nopadding">
+            <table class="table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th>No</th>
+                  <th>Service name</th>
+                  <th>Price</th>
+                  <th>Unit</th>
+                  <th>Booked</th>
+                  <th>Ready</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Restaurant</td>
+                  <td>10</td>
+                  <td>table</td>
+                  <td>60</td>
+                  <td>40</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Spa-Massage</td>
+                  <td>5</td>
+                  <td>room</td>
+                  <td>35</td>
+                  <td>15</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>KARAOKE</td>
+                  <td>4</td>
+                  <td>room</td>
+                  <td>25</td>
+                  <td>25</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Swimming pools</td>
+                  <td>4</td>
+                  <td>ticket</td>
+                  <td>15</td>
+                  <td>35</td>
+                </tr>
+                
+                
+              </tbody>
+            </table>
+          </div>
+        </div>    
+        <div class="widget-box">
+          <div class="widget-title"> <span class="icon"><i class="icon-th"></i></span>
+            <h5>Data Bookings</h5>
+          </div>
+          <div class="widget-content nopadding">
+            <table class="table table-bordered data-table">
+              <thead>
+                <tr>
+                  <th>No</th>
+                  <th>Bookings ID</th>
+                  <th>Room ID</th>
+                  <th>Guset ID</th>
+                  <th>Date CheckIn</th>
+                  <th>Date CheckOut</th>
+                  <th>Payment</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="gradeX">
+                  <td>0001</td>
+                  <td>RVS001</td>
+                  <td>RVS01</td>
+                  <td> <a href="profile.html">TDQUANG18IT3</a> </td>
+                  <td class="center">15/05/2019</td>
+                  <td class="center">18/05/2019</td>
+                  <td> <a href="payment.html">paid</a> </td>
+                </tr>
+                <tr class="gradeX">
+                  <td>0002</td>
+                  <td>VS002</td>
+                  <td>KRS03</td>
+                  <td> <a href="profile.html">HNXTAY18IT3</a> </td>
+                  <td class="center">15/05/2019</td>
+                  <td class="center">20/05/2019</td>
+                  <td> <a href="payment.html">unpaid</a> </td>
+                </tr>
+                <tr class="gradeX">
+                  <td>0003</td>
+                  <td>VS003</td>
+                  <td>KRS03</td>
+                  <td> <a href="profile.html">XTUONGV0001</a> </td>
+                  <td class="center">02/05/2019</td>
+                  <td class="center">10/05/2019</td>
+                  <td> <a href="payment.html">paid</a> </td>
+                </tr>
+                <tr class="gradeX">
+                  <td>0004</td>
+                  <td>DS004</td>
+                  <td>KRS04</td>
+                  <td> <a href="profile.html">BXTHIEN0002</a> </td>
+                  <td class="center">12/05/2019</td>
+                  <td class="center">14/05/2019</td>
+                  <td> <a href="payment.html">paid</a> </td>
+                </tr>
+                <tr class="gradeX">
+                  <td>0005</td>
+                  <td>VS005</td>
+                  <td>KRS05</td>
+                  <td> <a href="profile.html">ROBÍNON0005</a> </td>
+                  <td class="center">18/05/2019</td>
+                  <td class="center">25/05/2019</td>
+                  <td> <a href="payment.html">unpaid</a> </td>
+                </tr>
+                <tr class="gradeX">
+                  <td>0006</td>
+                  <td>VS006</td>
+                  <td>KRS06</td>
+                  <td> <a href="profile.html">RONALDO</a> </td>
+                  <td class="center">15/04/2019</td>
+                  <td class="center">18/04/2019</td>
+                  <td> <a href="payment.html">paid</a> </td>
+                </tr>
+                <tr class="gradeX">
+                  <td>0007</td>
+                  <td>VS007</td>
+                  <td>KRS07</td>
+                  <td> <a href="profile.html">MESSI701</a> </td>
+                  <td class="center">02/02/2018</td>
+                  <td class="center">05/03/2018</td>
+                  <td> <a href="payment.html">unpaid</a> </td>
+                </tr>
+                <tr class="gradeX">
+                  <td>0008</td>
+                  <td>VS008</td>
+                  <td>KRS08</td>
+                  <td> <a href="profile.html">BTDUNG2325</a> </td>
+                  <td class="center">09/09/2019</td>
+                  <td class="center">10/09/2019</td>
+                  <td> <a href="payment.html">unpaid</a> </td>
+                </tr>
+                <tr class="gradeX">
+                  <td>0009</td>
+                  <td>VS009</td>
+                  <td>KRS09</td>
+                  <td> <a href="profile.html">PHANTRONGTHANH18IT3</a> </td>
+                  <td class="center">15/05/2019</td>
+                  <td class="center">22/05/2019</td>
+                  <td> <a href="payment.html">unpaid</a> </td>
+                </tr>
+                <tr class="gradeX">
+                  <td>00010</td>
+                  <td>VS0010</td>
+                  <td>KRS010</td>
+                  <td> <a href="profile.html">VOHUNGCUONG0002</a> </td>
+                  <td class="center">15/06/2019</td>
+                  <td class="center">26/06/2019</td>
+                  <td> <a href="payment.html">unpaid</a> </td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Footer-part-->
+<div class="row-fluid">
+  <div id="footer" class="span12"> 2013 &copy; Matrix Admin. Brought to you by <a href="http://themedesigner.in">Themedesigner.in</a> </div>
+</div>
+<!--end-Footer-part-->
+<script src="js/jquery.min.js"></script> 
+<script src="js/jquery.ui.custom.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/jquery.uniform.js"></script> 
+<script src="js/select2.min.js"></script> 
+<script src="js/jquery.dataTables.min.js"></script> 
+<script src="js/matrix.js"></script> 
+<script src="js/matrix.tables.js"></script>
+</body>
+</html>
